@@ -10,5 +10,6 @@ const startServer = async () => {
     logger.info(`Server running on port ${PORT} in ${process.env.NODE_ENV} mode`);
   });
 };
+// select
 
 startServer();
